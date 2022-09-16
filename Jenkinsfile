@@ -27,5 +27,11 @@ pipeline {
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
+        stage('Stage-6') {
+            steps {
+                echo 'Salim YARIMCI'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+            }
+        }
     }
 }
